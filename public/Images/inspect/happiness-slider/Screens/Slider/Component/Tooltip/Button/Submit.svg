@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="61px" viewBox="0 0 60 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>A471EA41-DAEF-401C-BBF7-16BA2362D640</title>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Slider" transform="translate(-992.000000, -615.000000)">
+            <rect id="Rectangle-Copy-2" fill="#39B8FF" x="0" y="0" width="1440" height="1024"></rect>
+            <g id="Component/Tooltip" transform="translate(366.000000, 491.577375)">
+                <path d="M20,28 L688,28 C699.045695,28 708,36.954305 708,48 L708,220 C708,253.137085 681.137085,280 648,280 L60,280 C26.862915,280 4.05812251e-15,253.137085 0,220 L0,48 C-1.3527075e-15,36.954305 8.954305,28 20,28 Z" id="Rectangle" fill="#FFFFFF"></path>
+                <g id="Group-2" transform="translate(626.000000, 124.000000)">
+                    <circle id="Oval" fill="#00D715" cx="30" cy="30" r="30"></circle>
+                    <polyline id="Path-2" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" points="19.3724807 27.6378885 28.4875075 40 45.9962435 15.275777"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

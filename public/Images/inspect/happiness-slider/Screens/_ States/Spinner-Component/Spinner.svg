@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>7C79C2C3-82E0-4679-BE0B-0A1CB7DF02C1</title>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="//-States" transform="translate(-96.000000, -1981.000000)">
+            <rect id="Background" fill="#39B8FF" x="0" y="0" width="1440" height="2472"></rect>
+            <g id="Spinner" transform="translate(96.000000, 1981.000000)" stroke="#FFFFFF" stroke-dasharray="60,20" stroke-width="8">
+                <path d="M149.5,293 C228.752862,293 293,228.752862 293,149.5 C293,70.2471384 228.752862,6 149.5,6 C70.2471384,6 6,70.2471384 6,149.5 C6,228.752862 70.2471384,293 149.5,293 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

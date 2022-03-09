@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="61px" viewBox="0 0 60 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>AF167EBF-556D-4D4B-951F-3A5A5E36FE5B</title>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Slider" transform="translate(-690.000000, -649.000000)">
+            <rect id="Background" fill="#39B8FF" x="0" y="0" width="1440" height="1024"></rect>
+            <g id="Component/Tooltip" transform="translate(366.000000, 589.577375)">
+                <rect id="Box" fill="#FFFFFF" x="0" y="27" width="708" height="127" rx="63.5"></rect>
+                <g id="Component/Slider" transform="translate(103.000000, 60.000000)">
+                    <rect id="Slider-bar" fill="#39B8FF" x="0" y="22" width="502" height="16" rx="8"></rect>
+                    <g id="Element/Slider-handle" transform="translate(221.000000, 0.000000)">
+                        <rect id="Box" fill="#218DC9" x="0" y="0" width="60" height="60" rx="15"></rect>
+                        <rect id="Line-3" fill="#39B8FF" x="39" y="16" width="8" height="28" rx="4"></rect>
+                        <rect id="Line-2" fill="#39B8FF" x="26" y="9" width="8" height="42" rx="4"></rect>
+                        <rect id="Line-1" fill="#39B8FF" x="13" y="16" width="8" height="28" rx="4"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
