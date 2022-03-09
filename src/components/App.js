@@ -46,8 +46,9 @@ const App = () => {
   const currentState = states[sliderValue - 1];
 
   if (responseText) {
+    document.body.style = "background-color:rgb(248 203 57);";
     return (
-      <div className="container happy-slider response-screen text-light text-center">
+      <div className="container happy-slider response-screen text-dark text-center">
         <div className="row">
           <div className="col-6 offset-3">
             <h1 className="fw-light text-center mb-5">{responseText}</h1>
