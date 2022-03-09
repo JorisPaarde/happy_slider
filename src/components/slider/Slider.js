@@ -1,23 +1,20 @@
-import React, { useState } from "react";
-import "./slider.css";
+import React from "react";
+import "./Slider.css";
 
-const Slider = () => {
-  const [happyness, setHappyness] = useState(3);
-
+const Slider = ({ sliderValue, setSlidervalue }) => {
   return (
-    <div>
+    <div className="slider-container">
       <input
         type="range"
         min="1"
         max="5"
-        value={happyness}
-        class="slider"
+        value={sliderValue}
+        className="slider"
         id="myRange"
         onChange={(e) => {
-          setHappyness(e.target.value);
+          setSlidervalue(e.target.value);
         }}
       ></input>
-      {happyness}
     </div>
   );
 };
