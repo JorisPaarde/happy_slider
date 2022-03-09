@@ -4,7 +4,7 @@ import HappinessSubmit from "../happinessSubmit/HappinessSubmit";
 
 import arrow from "./Tooltip_arrow.svg";
 
-const Slider = ({ sliderValue, setSlidervalue }) => {
+const Slider = ({ sliderValue, setSlidervalue, state, setResponseText }) => {
   return (
     <div>
       <img src={arrow} alt="arrow" />
@@ -20,7 +20,7 @@ const Slider = ({ sliderValue, setSlidervalue }) => {
             setSlidervalue(e.target.value);
           }}
         />
-        <HappinessSubmit />
+        <HappinessSubmit state={state} setResponseText={setResponseText} />
       </div>
     </div>
   );

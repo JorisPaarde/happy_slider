@@ -17,37 +17,45 @@ const states = [
     value: 1,
     image: notHappyAtAll,
     displayState: "not happy at all",
-    text: "You grumpy old bastard",
   },
   {
     value: 2,
     image: notHappy,
     displayState: "not happy",
-    text: "Didn't sleep well?",
   },
   {
     value: 3,
     image: neutral,
     displayState: "neutral",
-    text: "Why so serious?",
   },
   {
     value: 4,
     image: happy,
     displayState: "happy",
-    text: "Always nice to see a smile on your face!",
   },
   {
     value: 5,
     image: superHappy,
     displayState: "super happy",
-    text: "Whoohoo! Party on!",
   },
 ];
 
 const App = () => {
   const [sliderValue, setSlidervalue] = useState(3);
+  const [responseText, setResponseText] = useState(null);
   const currentState = states[sliderValue - 1];
+
+  if (responseText) {
+    return (
+      <div className="container happy-slider response-screen text-light text-center">
+        <div className="row">
+          <div className="col-6 offset-3">
+            <h1 className="fw-light text-center mb-5">{responseText}</h1>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="container happy-slider text-light text-center">
@@ -56,7 +64,12 @@ const App = () => {
       <h2 className="fw-light text-center my-5">
         I'm feeling {currentState.displayState}.
       </h2>
-      <Slider sliderValue={sliderValue} setSlidervalue={setSlidervalue} />
+      <Slider
+        sliderValue={sliderValue}
+        setResponseText={setResponseText}
+        setSlidervalue={setSlidervalue}
+        state={currentState}
+      />
     </div>
   );
 };
